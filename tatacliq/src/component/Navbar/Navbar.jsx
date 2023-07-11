@@ -5,221 +5,183 @@ import './Navbar.css'
 
 
 const Navbar = () => {
+  const [dropDown, setDropDown] = useState(false);
+  const [color, setColor] = useState(false);
+  const [backGround, setBackGround] = useState(false);
+  const [rotate, setRotate] = useState(false)
+  const redirect = useNavigate()
 
-//usestate
-const[display, setdisplay] = useState(false);
-//onclick
-const handleClick = () => {
-  setdisplay(!display)
-}
+  function FallDown() {
+    setDropDown(true);
+    setColor(true);
+    setBackGround(true)
+    setRotate(true)
+  }
 
-//usestate
-const[drop, setdrop] = useState(false);
-//onclick
-const handHover = () => {
-  setdrop(!drop)
-}
+  function Fallup() {
+    setDropDown(false);
+    setColor(false);
+    setBackGround(false);
+    setRotate(false);
+  }
 
-const router = useNavigate();
-    function goto(){
-        router('/menssection')
-    }
-
-    function goin(){
-        router('/cart')
-    }
-   
 
   return (
     <div id="navbar">
-        <div id="left">
-          <img src="http://www.pngimagesfree.com/LOGO/T/Tata-CLiQ/Tata-cliq-logo-PNG-Black-and-White.png"/>
+      <div id="left">
+        <img src="http://www.pngimagesfree.com/LOGO/T/Tata-CLiQ/Tata-cliq-logo-PNG-Black-and-White.png" />
+      </div>
+      <div id="right">
+        <div id="up">
+          <p onClick={()=>redirect('/home')}>Tata CLiQ Luxury</p>
+          <span>
+            <p>CLiQ Cash</p>
+            <p>Gift Card</p>
+            <p>CliQ Care</p>
+            <p>Track Orders</p>
+            <p>Sign in/ Sign up</p>
+          </span>
         </div>
-        <div id="right">
-            <div id="up">
-              <p>Tata CLiQ Luxury</p>
-              <span>
-                <p>CLiQ Cash</p>
-                <p>Gift Card</p>
-                <p>CliQ Care</p>
-                <p>Track Orders</p>
-                <p>Sign in/ Sign up</p>
-              </span>
-            </div>
-            <div id="down">
-              <div id="categories" onPointerEnter={() => handleClick()}>
-                <p>Categories</p>
-               <i className="fa-solid fa-angle-down" ></i>
-              </div>
-              <div>
-               <p>Brands</p>
-               <i className="fa-solid fa-angle-down" ></i>
-              </div>
-              <div>
-              <i class="fa-solid fa-magnifying-glass"></i>
-              <input  placeholder='Search for Products'/>
-              </div>
-              <div>
-              <i class="fa-regular fa-heart fa-sm"></i>
-              <i onClick={goin} class="fa-solid fa-bag-shopping fa-sm"></i>
-              </div>
-            </div>
+        <div id="down">
+          <div id="categories" onMouseEnter={FallDown} onMouseLeave={Fallup}>
+            <p>Categories</p>
+            <i className="fa-solid fa-angle-down" style={{ transform: rotate ? "rotate(180deg)" : "rotate(0deg)" }}></i>
+          </div>
+          <div>
+            <p>Brands</p>
+            <i className="fa-solid fa-angle-down" ></i>
+          </div>
+          <div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input placeholder='Search for Products' />
+          </div>
+          <div>
+            <i class="fa-regular fa-heart fa-sm"></i>
+            <i class="fa-solid fa-bag-shopping fa-sm"></i>
+          </div>
+        </div>
 
 
-            {/* <div id="dropdown">
-              <div>
+
+        {dropDown && <div id="dropdown" onMouseEnter={FallDown} onMouseLeave={Fallup} style={{ backgroundColor: backGround? "white" : "black", color: color ? "black" : "white" }}>
+          <div>
+            <div>
               <p>Women's Fashion</p>
               <i class="fa-solid fa-angle-right"></i>
-              </div>
-              <div>
-              <p>Men's Fashion</p>
-              <i class="fa-solid fa-angle-right"></i>
-              </div>
-              <div>
-              <p>Kids's Fashion</p>
-              <i class="fa-solid fa-angle-right"></i>
-              </div>
-              <div>
-              <p>Home & Kitchen</p>
-              <i class="fa-solid fa-angle-right"></i>
-              </div>
-              <div>
-                <p>Beauty</p>
-              <i class="fa-solid fa-angle-right"></i>
-              </div>
-              <div>
-                <p>Gadgets</p>
-              <i class="fa-solid fa-angle-right"></i>
-              </div>
-              <div>
-                <p>Jewellery</p>
-              <i class="fa-solid fa-angle-right"></i>
-              </div>
-              <div>
-                <p>Accessories</p>
-              <i class="fa-solid fa-angle-right"></i>
-              </div>
-            </div> */}
-            {display && <div id="dropdown">
-             <div>
-              <div>
-              <p>Women's Fashion</p>
-              <i class="fa-solid fa-angle-right"></i>
-              </div>
-              <div>
-              <p onPointerEnter={() => handHover()}
-              onClick={goto}>Men's Fashion</p>
-              <i class="fa-solid fa-angle-right"></i>
-              </div>
-              <div>
-              <p>Kids's Fashion</p>
-              <i class="fa-solid fa-angle-right"></i>
-              </div>
-              <div>
-              <p>Home & Kitchen</p>
-              <i class="fa-solid fa-angle-right"></i>
-              </div>
-              <div>
-                <p>Beauty</p>
-              <i class="fa-solid fa-angle-right"></i>
-              </div>
-              <div>
-                <p>Gadgets</p>
-              <i class="fa-solid fa-angle-right"></i>
-              </div>
-              <div>
-                <p>Jewellery</p>
-              <i class="fa-solid fa-angle-right"></i>
-              </div>
-              <div>
-                <p>Accessories</p>
-              <i class="fa-solid fa-angle-right"></i>
-              </div>
-             </div>
-             <div id="dropwomen">
-              <div>
-                <h4>Shop All Ethnic Wear</h4>
-                <p>Kurtis & Kurtas</p>
-                <p>Suits</p>
-                <p>Sarees</p>
-                <p>Lehengas</p>
-                <p>Bottoms</p>
-                <p>Blouses & Fabrics</p>
-                <p>Dupattas</p>
-              </div>
-              <div>
-                <p>Shorts</p>
-                <p>Jackets & Blazers</p>
-                <p>Leggings</p>
-                <p>Capris</p>
-                <p>Jumpsuits</p>
-                <p>Shrugs</p>
-                <p>Sweaters</p>
-                <p>Sweatshirts</p>
-              </div>
-              <div>
-                <h4>Lingerie & Lounge Sets</h4>
-                <p>Bras</p>
-                <p>Panties</p>
-                <p>Lingerie Sets</p>
-                <p>Camisoles</p>
-                <p>Sleepwear & Robes</p>
-                <p>Shapewear</p>
-                <p>Swimwear</p>
-              </div>
-              <div>
-                <h4>Bags, Wallets & Clutches</h4>
-                <p>Handbags</p>
-                <p>Tote Bags</p>
-                <p>Sling Bags</p>
-                <p>Backpacks</p>
-                <p>Wallets</p>
-                <p>Clutches</p>
-                <p>Premium Handbags</p>
-              </div>
-              <div>
-                <h4>Shop All Western Wear</h4>
-                <p>Tops & Tunics</p>
-                <p>Dresses</p>
-                <p>Jeans</p>
-                <p>Shirts</p>
-                <p>Trousers</p>
-                <p>Skirts</p>
-              </div>
-              
-              <div>
-                <h4>Activewear & Sportswear</h4>
-                <p>T-shirts</p>
-                <p>Shorts</p>
-                <p>Sets</p>
-                <p>Jackets</p>
-                <p>Track Pants</p>
-                <p>Innerwear</p>
-              </div>
-              
-              <div>
-                <h4>Shop All Footwear</h4>
-                <p>Casual Footwear</p>
-                <p>Boots</p>
-                <p>Sneakers</p>
-                <p>Flip Flops</p>
-                <p>Sports Shoes</p>
-                <p>Ethnic Footwear</p>
-              </div>
-              
-              <div>
-                <h4>Jewellery</h4>
-                <p>Gold</p>
-                <p>Diamond</p>
-                <p>Silver</p>
-                <p>Fashion Jewellery</p>
-                <h4>Watches</h4>
-                <p>Smart</p> 
-              </div>
             </div>
-            </div> }
+            <div onClick={()=>redirect('/mensmultiple')}>
+              <p >Men's Fashion</p>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div>
+              <p>Kids's Fashion</p>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div>
+              <p>Home & Kitchen</p>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div>
+              <p>Beauty</p>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div>
+              <p>Gadgets</p>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div>
+              <p>Jewellery</p>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div>
+              <p>Accessories</p>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+          <div id="dropwomen">
+            <div>
+              <h4>Shop All Ethnic Wear</h4>
+              <p>Kurtis & Kurtas</p>
+              <p>Suits</p>
+              <p>Sarees</p>
+              <p>Lehengas</p>
+              <p>Bottoms</p>
+              <p>Blouses & Fabrics</p>
+              <p>Dupattas</p>
+            </div>
+            <div>
+              <p>Shorts</p>
+              <p>Jackets & Blazers</p>
+              <p>Leggings</p>
+              <p>Capris</p>
+              <p>Jumpsuits</p>
+              <p>Shrugs</p>
+              <p>Sweaters</p>
+              <p>Sweatshirts</p>
+            </div>
+            <div>
+              <h4>Lingerie & Lounge Sets</h4>
+              <p>Bras</p>
+              <p>Panties</p>
+              <p>Lingerie Sets</p>
+              <p>Camisoles</p>
+              <p>Sleepwear & Robes</p>
+              <p>Shapewear</p>
+              <p>Swimwear</p>
+            </div>
+            <div>
+              <h4>Bags, Wallets & Clutches</h4>
+              <p>Handbags</p>
+              <p>Tote Bags</p>
+              <p>Sling Bags</p>
+              <p>Backpacks</p>
+              <p>Wallets</p>
+              <p>Clutches</p>
+              <p>Premium Handbags</p>
+            </div>
+            <div>
+              <h4>Shop All Western Wear</h4>
+              <p>Tops & Tunics</p>
+              <p>Dresses</p>
+              <p>Jeans</p>
+              <p>Shirts</p>
+              <p>Trousers</p>
+              <p>Skirts</p>
+            </div>
 
-            {/* <div id="dropmen">
+            <div>
+              <h4>Activewear & Sportswear</h4>
+              <p>T-shirts</p>
+              <p>Shorts</p>
+              <p>Sets</p>
+              <p>Jackets</p>
+              <p>Track Pants</p>
+              <p>Innerwear</p>
+            </div>
+
+            <div>
+              <h4>Shop All Footwear</h4>
+              <p>Casual Footwear</p>
+              <p>Boots</p>
+              <p>Sneakers</p>
+              <p>Flip Flops</p>
+              <p>Sports Shoes</p>
+              <p>Ethnic Footwear</p>
+            </div>
+
+            <div>
+              <h4>Jewellery</h4>
+              <p>Gold</p>
+              <p>Diamond</p>
+              <p>Silver</p>
+              <p>Fashion Jewellery</p>
+              <h4>Watches</h4>
+              <p>Smart</p>
+            </div>
+          </div>
+        </div>}
+
+        {/* <div id="dropmen">
               <div>
                 <h4>Shop All Ethnic Wear</h4>
                 <p>Kurtis & Kurtas</p>
@@ -301,7 +263,7 @@ const router = useNavigate();
               </div>
             </div> */}
 
-            {/* {drop && <div id="dropmen">
+        {/* {drop && <div id="dropmen">
               <div>
                 <h4>Tops</h4>
                 <p>T-shirts</p>
@@ -367,9 +329,9 @@ const router = useNavigate();
               </div>
             </div>} */}
 
-            
 
-        </div>
+
+      </div>
     </div>
   )
 }

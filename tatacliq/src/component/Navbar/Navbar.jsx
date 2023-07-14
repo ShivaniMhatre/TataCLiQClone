@@ -56,8 +56,8 @@ const Navbar = () => {
             <input placeholder='Search for Products' />
           </div>
           <div>
-            <i class="fa-regular fa-heart fa-sm"></i>
-            <i class="fa-solid fa-bag-shopping fa-sm"></i>
+            <i class="fa-regular fa-heart fa-sm" onClick={()=>redirect('/wish')}></i>
+            <i class="fa-solid fa-bag-shopping fa-sm" onClick={()=>redirect('/cart')}></i>
           </div>
         </div>
 
@@ -65,23 +65,23 @@ const Navbar = () => {
 
         {dropDown && <div id="dropdown" onMouseEnter={FallDown} onMouseLeave={Fallup} style={{ backgroundColor: backGround? "white" : "black", color: color ? "black" : "white" }}>
           <div>
-            <div>
+            <div onClick={()=>redirect('/women')}>
               <p>Women's Fashion</p>
               <i class="fa-solid fa-angle-right"></i>
             </div>
-            <div onClick={()=>redirect('/mensmultiple')}>
+            <div onClick={()=>redirect('/men')}>
               <p >Men's Fashion</p>
               <i class="fa-solid fa-angle-right"></i>
             </div>
-            <div>
+            <div onClick={()=>redirect('/kids')}>
               <p>Kids's Fashion</p>
               <i class="fa-solid fa-angle-right"></i>
             </div>
-            <div>
+            <div onClick={()=>redirect('/hk')}>
               <p>Home & Kitchen</p>
               <i class="fa-solid fa-angle-right"></i>
             </div>
-            <div>
+            <div onClick={()=>redirect('/beauty')}>
               <p>Beauty</p>
               <i class="fa-solid fa-angle-right"></i>
             </div>
@@ -89,7 +89,7 @@ const Navbar = () => {
               <p>Gadgets</p>
               <i class="fa-solid fa-angle-right"></i>
             </div>
-            <div>
+            <div onClick={()=>redirect('/jewel')}>
               <p>Jewellery</p>
               <i class="fa-solid fa-angle-right"></i>
             </div>
@@ -98,7 +98,7 @@ const Navbar = () => {
               <i class="fa-solid fa-angle-right"></i>
             </div>
           </div>
-          <div id="dropwomen">
+          {/* <div id="dropwomen">
             <div>
               <h4>Shop All Ethnic Wear</h4>
               <p>Kurtis & Kurtas</p>
@@ -178,7 +178,7 @@ const Navbar = () => {
               <h4>Watches</h4>
               <p>Smart</p>
             </div>
-          </div>
+          </div> */}
         </div>}
 
         {/* <div id="dropmen">

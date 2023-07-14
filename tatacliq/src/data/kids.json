@@ -1,0 +1,140 @@
+[
+    {
+        "p_id": "0",
+        "name": "HOP",
+        "description": "HOP Kids By Website Printed Multi-Colored T-shirt",
+        "price": 799,
+        "Ratings": "4",
+        "count": "(1)",
+        "stock": "Limited Stock!",
+        "image": "https://img.tatacliq.com/images/i11/437Wx649H/MP000000018078453_437Wx649H_202306230456091.jpeg"
+    },
+    {
+        "p_id": "1",
+        "name": "HOP",
+        "description": "IHOP Kids By Website Blue T-shirt ",
+        "price": 399,
+        
+        "image": "https://img.tatacliq.com/images/i11/437Wx649H/MP000000018078454_437Wx649H_202306230456071.jpeg"
+    },
+    {
+        "p_id": "2",
+        "name": "Pantaloons Baby",
+        "description": "Pantaloons Baby Green Cotton Printed Full Sleeves T-shirt",
+        "price": 299,
+       
+        "stock": "Limited Stock!",
+        "image": "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017295948_437Wx649H_202304201833001.jpeg"
+    },
+    {
+        "p_id": "3",
+        "name": "Mothercare",
+        "description": "Mothercare Kids White Striped T-shirt",
+        "price": 299,
+        "Before Discount": 599,
+        "image": "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017076095_437Wx649H_202304032031271.jpeg"
+    },
+    {
+        "p_id": "4",
+        "name": "Y&F",
+        "description": "Y&F Kids By Website Plain Lilac T-Shirt",
+        "price": 399,
+        
+        "image": "https://img.tatacliq.com/images/i12/437Wx649H/MP000000018277972_437Wx649H_202307111510331.jpeg"
+    },
+    {
+        "p_id": "5",
+        "name": "Babycare",
+        "description": "Babycare Kids Fuchsia Embroidered Full Sleeves T-shirt",
+        "price": 399,
+        
+        "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014010532_437Wx649H_202208021012071.jpeg"
+    },
+    {
+        "p_id": "6",
+        "name": "Y&F",
+        "description": "Y&F Kids By Website Light Pink and White Color Block T-Shirt",
+        "price": 499,
+        
+        "image": "https://img.tatacliq.com/images/i11/437Wx649H/MP000000017617657_437Wx649H_202305192047311.jpeg"
+    },
+    {
+        "p_id": "7",
+        "name": "Pataloons Baby",
+        "description": "Pataloons Baby Aqua Blue Cotton Regular Fir Dress",
+        "price": 299,
+        "Ratings": "3",
+        "count": "(2)",
+        "image": "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017303606_437Wx649H_202304210029211.jpeg"
+    },
+    {
+        "p_id": "8",
+        "name": "Lilpicks",
+        "description": "Lilpicks Kids Silver Solid Top",
+        "price": 499,
+        "Before Discount": 1199,
+        "Ratings": "1",
+        "count": "(1)",
+        "stock": "Limited Stock!",
+        "image": "https://img.tatacliq.com/images/i10/437Wx649H/MP000000016870967_437Wx649H_202303160413571.jpeg"
+    },
+    {
+        "p_id": "9",
+        "name": "Y&F",
+        "description": "Y&F Kids By Website Lilac Colorblock Printed T-shirt",
+        "price": 399,
+        "image": "https://img.tatacliq.com/images/i11/437Wx649H/MP000000017695209_437Wx649H_202306091529591.jpeg"
+    },
+    {
+        "p_id": "10",
+        "name": "Yufta",
+        "description": "Yufta Maroon Embellished Kurta Pant Set With Dupatta",
+        "price": 1199,
+        "Before Discount": 3999,
+        "Ratings": "5",
+        "count": "(1)",
+        "image": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016111669_437Wx649H_202301192315521.jpeg"
+    },
+    {
+        "p_id": "11",
+        "name": "Khushak K",
+        "description": "Khushal K Maroon Kurta Palazzo Set With Dupatta",
+        "price": 1427,
+        "Before Discount": 5099,
+        "Ratings": "3.8",
+        "count": "(63)",
+        "stock": "Limited Stock!",
+        "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014319077_437Wx649H_202209022117101.jpeg"
+    },
+    {
+        "p_id": "12",
+        "name": "Khushal K",
+        "description": "Khushal K Pink Woven Pattern Kurta Palazzo Set With Dupatta ",
+        "price": 1427,
+        "Before Discount": 5099,
+        "Ratings": "4.6",
+        "count": "(63)",
+        "stock": "Limited Stock!",
+        "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013774264_437Wx649H_202208232249531.jpeg"
+    },
+    {
+        "p_id": "13",
+        "name": "Juniper",
+        "description": "Juniper Mustered Cambric Printed Flared Palazzo",
+        "price": 989,
+        "Before Discount": 1799,
+        "Ratings": "4.1",
+        "count": "(57)",
+        "stock": "Limited Stock!",
+        "image": "https://img.tatacliq.com/images/i7/437Wx649H/MP000000010516099_437Wx649H_202109071512141.jpeg"
+    },
+    {
+        "p_id": "14",
+        "name": "Saree Mall ",
+        "description": "Saree Mall Pink silk Printed Saree With Unstitched Blouse",
+        "price": 899,
+        "Before Discount": 2799,
+        "stock": "Limited Stock!",
+        "image":"https://img.tatacliq.com/images/i9/437Wx649H/MP000000016223054_437Wx649H_202301260218561.jpeg"
+    }
+]

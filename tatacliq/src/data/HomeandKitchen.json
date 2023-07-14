@@ -1,0 +1,42 @@
+[
+  {
+    "p_id": "0",
+    "name": "Swayam",
+    "description": "Swayam Vedic Yellow & Green Cotton 180TC Bed Sheet with 2 Pillow Covers",
+    "price": 1049,
+    "Before Discount": 1899,
+    "stock": "Limited Stock!",
+    "image": "https://img.tatacliq.com/images/i7/437Wx649H/MP000000011560672_437Wx649H_202112241423081.jpeg"
+  },
+  {
+    "p_id": "1",
+    "name": "Klotthe",
+    "description": "Klotthe Multicolor Cotton Blend 300 TC Double Bed Sheet With 2 Pillow Cover",
+    "price": 799,
+    "Before Discount": 3329,
+    
+    "stock": "Limited Stock!",
+    "image": "https://img.tatacliq.com/images/i11/437Wx649H/MP000000017532534_437Wx649H_202305142051011.jpeg"
+  },
+  {
+    "p_id": "2",
+    "name": "Dreamscape",
+    "description": "Dreamscape Pink and Beige Cotton 140 TC Bedsheet Set",
+    "price": 1049,
+    "Before Discount": 1899,
+    "Ratings": "3.8",
+    "count": "(29)",
+    "stock": "Limited Stock!",
+    "image": "https://img.tatacliq.com/images/i7/437Wx649H/MP000000010631286_437Wx649H_202109171817551.jpeg"
+  },
+  {
+    "p_id": "3",
+    "name": "Haus & Kinder",
+    "description": "Haus & Kinder Summer Vintage Romance Printed Pink 186 TC Cotton Bed Sheet With 2 Pillow Cover",
+    "price": 979,
+    "Before Discount": 1999,
+    "Ratings": "4.6",
+    "count": "(14)",
+    "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013739854_437Wx649H_202207091231131.jpeg"
+  }
+]

@@ -7,7 +7,7 @@
     "Before Discount": 2000,
     "Ratings": "5",
     "count": "(1)",
-    "stock":  "Limited Stock!",
+    "stock": "Limited Stock!",
     "image": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016373929_437Wx649H_202302042021191.jpeg"
   },
   {
@@ -18,7 +18,7 @@
     "Before Discount": 3194,
     "Ratings": "4.3",
     "count": "(4)",
-    "stock":  "Limited Stock!",
+    "stock": "Limited Stock!",
     "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015298354_437Wx649H_202211152202081.jpeg"
   },
   {
@@ -29,7 +29,7 @@
     "Before Discount": 2299,
     "Ratings": "3",
     "count": "(2)",
-    "stock":  "Limited Stock!",
+    "stock": "Limited Stock!",
     "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014765428_437Wx649H_202210061555121.jpeg"
   },
   {
@@ -70,7 +70,7 @@
     "Before Discount": 3000,
     "Ratings": "3",
     "count": "(2)",
-    "stock":  "Limited Stock!",
+    "stock": "Limited Stock!",
     "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014428153_437Wx649H_202209112250181.jpeg"
   },
   {
@@ -91,7 +91,7 @@
     "Before Discount": 1000,
     "Ratings": "3.8",
     "count": "(5)",
-    "stock":  "Limited Stock!",
+    "stock": "Limited Stock!",
     "image": "https://img.tatacliq.com/images/i11/437Wx649H/MP000000017911985_437Wx649H_202306121421201.jpeg"
   },
   {
@@ -102,7 +102,7 @@
     "Before Discount": 3294,
     "Ratings": "3.6",
     "count": "(5)",
-    "stock":  "Limited Stock!",
+    "stock": "Limited Stock!",
     "image": "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017328404_437Wx649H_202304220320381.jpeg"
   },
   {
@@ -123,7 +123,40 @@
     "Before Discount": 3000,
     "Ratings": "3.8",
     "count": "(5)",
-    "stock":  "Limited Stock!",
+    "stock": "Limited Stock!",
+    "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015191655_437Wx649H_202211060047171.jpeg"
+  },
+  {
+    "p_id": "12",
+    "name": "U.S. Polo Assn.",
+    "description": "U.S. Polo Assn. Dark Green Regular Fit Cotton Shirt",
+    "price": 2299,
+    "Before Discount": 3000,
+    "Ratings": "3.8",
+    "count": "(5)",
+    "stock": "Limited Stock!",
+    "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015191655_437Wx649H_202211060047171.jpeg"
+  },
+  {
+    "p_id": "13",
+    "name": "U.S. Polo Assn.",
+    "description": "U.S. Polo Assn. Dark Green Regular Fit Cotton Shirt",
+    "price": 2299,
+    "Before Discount": 3000,
+    "Ratings": "3.8",
+    "count": "(5)",
+    "stock": "Limited Stock!",
+    "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015191655_437Wx649H_202211060047171.jpeg"
+  },
+  {
+    "p_id": "14",
+    "name": "U.S. Polo Assn.",
+    "description": "U.S. Polo Assn. Dark Green Regular Fit Cotton Shirt",
+    "price": 2299,
+    "Before Discount": 3000,
+    "Ratings": "3.8",
+    "count": "(5)",
+    "stock": "Limited Stock!",
     "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000015191655_437Wx649H_202211060047171.jpeg"
   }
 ]

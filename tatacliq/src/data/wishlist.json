@@ -1,0 +1,52 @@
+[
+    {
+      "p_id": "0",
+      "name": "U.S. Polo Assn.",
+      "description": "U.S. Polo Assn. Ivory Cotton Regular Fit Polo T-Shirt",
+      "price": 1899,
+      "Before Discount": 2000,
+      "Ratings": "5",
+      "count": "(1)",
+      "stock": "Limited Stock!",
+      "image": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016373929_437Wx649H_202302042021191.jpeg"
+    },
+    {
+      "p_id": "1",
+        "name": "Skinn By Titan",
+        "description": "Skinn By Titan  Nude Eau de Perfume For Women-20ml ",
+        "price": 548,
+        "Before Discount": 645,
+        "Ratings": "4.6",
+        "count": "(89)",
+        "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000007907126_437Wx649H_202205180800581.jpeg"
+    },
+    {
+      "p_id": "2",
+      "name": "Pantaloons Baby",
+      "description": "Pantaloons Baby Green Cotton Printed Full Sleeves T-shirt",
+      "price": 299,
+     
+      "stock": "Limited Stock!",
+      "image": "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017295948_437Wx649H_202304201833001.jpeg"
+    },
+    {
+      "p_id": "3",
+        "name": "Yufta",
+        "description": "Yufta Lavender Rayon Embroidered A Line Kurta",
+        "price": 699,
+        "Before Discount": 1999,
+        "Ratings": "4.6",
+        "count": "(32)",
+        "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014724291_437Wx649H_202210010550301.jpeg"
+    },
+    {
+      "p_id": "5",
+    "name": "U.S. Polo Assn.",
+    "description": "U.S. Polo Assn. Dark Blue Cotton Skinny Fit Jeans",
+    "price": 2309,
+    "Before Discount": 3299,
+    "Ratings": "4.6",
+    "count": "(8)",
+    "image": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000015591343_437Wx649H_202212081003121.jpeg"
+    }
+]

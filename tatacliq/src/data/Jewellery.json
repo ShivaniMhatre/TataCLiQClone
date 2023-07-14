@@ -1,0 +1,38 @@
+[
+    {
+      "p_id": "0",
+      "name": "Malabar Gold and Diamonds",
+      "description": "Malabar Gold and Diamonds 22k Gold Necklace For Women",
+      "price": 27659,
+      
+      "image": "https://img.tatacliq.com/images/i5/437Wx649H/MP000000002491928_437Wx649H_20190927050027.jpeg"
+    },
+    {
+      "p_id": "1",
+      "name": "Malabar Gold and Diamonds",
+      "description": "Malabar Gold and Diamonds 22k Gold Necklace For Women",
+      "price": 112429,
+      
+      
+      "stock": "Limited Stock!",
+      "image": "https://img.tatacliq.com/images/i7/437Wx649H/MP000000011552772_437Wx649H_202112232202451.jpeg"
+    },
+    {
+      "p_id": "2",
+      "name": "P.N.Gadgil.Jewellers",
+      "description": "P.N.Gadgil.Jewellers 14k Gold Casual Ring for Women ",
+      "price": 24712,
+      "Before Discount": 25948,
+      
+      "image": "https://img.tatacliq.com/images/i11/437Wx649H/MP000000017395656_437Wx649H_202304290032031.jpeg"
+    },
+    {
+      "p_id": "3",
+      "name": "P.C.Chandra.Jewellers",
+      "description": " P.C.Chandra Jewellers 14k Gold Earrings for Women",
+      "price": 9873,
+      "Before Discount": 10980,
+      
+      "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000012774179_437Wx649H_202204092358361.jpeg"
+    }
+  ]

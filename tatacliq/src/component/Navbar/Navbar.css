@@ -154,10 +154,10 @@
 #dropdown{
     /* display: none; */
     position: absolute;
-    width: 1000px;
+    width: 22%;
     /* height: 520px; */
     background-color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     color: black;
     display: flex;
 }

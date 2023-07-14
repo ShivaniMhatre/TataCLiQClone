@@ -1,0 +1,158 @@
+[
+    {
+        "p_id": "0",
+        "name": "Juniper",
+        "description": "Juniper Green Printed Strainght Kurta",
+        "price": 799,
+        "Before Discount": 1699,
+        "Ratings": "4.1",
+        "count": "(36)",
+        "stock": "Limited Stock!",
+        "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014192424_437Wx649H_202208210124011.jpeg"
+    },
+    {
+        "p_id": "1",
+        "name": "Ishin",
+        "description": "Ishin Navy Embroidered Kurta Palazzo Set with Jacket ",
+        "price": 1499,
+        "Before Discount": 4999,
+        "Ratings": "4.3",
+        "count": "(135)",
+        "stock": "Limited Stock!",
+        "image": "https://img.tatacliq.com/images/i7/437Wx649H/MP000000008976820_437Wx649H_202105221640091.jpeg"
+    },
+    {
+        "p_id": "2",
+        "name": "Khushal K",
+        "description": "Khushal K Grey Floral Print Kurta Palazzo With Dupatta ",
+        "price": 1245,
+        "Before Discount": 4999,
+        "Ratings": "3.4",
+        "count": "(12)",
+        "stock": "Limited Stock!",
+        "image": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016426140_437Wx649H_202302072040581.jpeg"
+    },
+    {
+        "p_id": "3",
+        "name": "Yufta",
+        "description": "Yufta Lavender Rayon Embroidered A Line Kurta",
+        "price": 699,
+        "Before Discount": 1999,
+        "Ratings": "4.6",
+        "count": "(32)",
+        "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014724291_437Wx649H_202210010550301.jpeg"
+    },
+    {
+        "p_id": "4",
+        "name": "Juniper",
+        "description": "Juniper Blue Cotton Embroidered Straight Kurta",
+        "price": 977,
+        "Before Discount": 4249,
+        "Ratings": "4.4",
+        "count": "(5)",
+        "image": "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017136677_437Wx649H_202304080337131.jpeg"
+    },
+    {
+        "p_id": "5",
+        "name": "Yufta",
+        "description": "Yufta Purple Printed Straight Kurta",
+        "price": 759,
+        "Before Discount": 1899,
+        "Ratings": "3.6",
+        "count": "(33)",
+        "image": "https://img.tatacliq.com/images/i7/437Wx649H/MP000000011534678_437Wx649H_202112212243391.jpeg"
+    },
+    {
+        "p_id": "6",
+        "name": "Anubhutee",
+        "description": "Anubhutee Blue Embroidered Kurta With Pants & Dupatta",
+        "price": 1299,
+        "Before Discount": 3199,
+        "Ratings": "5",
+        "count": "(1)",
+        "stock": "Limited Stock!",
+        "image": "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017380642_437Wx649H_202304280121481.jpeg"
+    },
+    {
+        "p_id": "7",
+        "name": "Anubhutee",
+        "description": "Anubhutee Blue Floral Print Straight Kurta",
+        "price": 599,
+        "Before Discount": 2199,
+        "Ratings": "2.7",
+        "count": "(3)",
+        "image": "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017380756_437Wx649H_202304280126341.jpeg"
+    },
+    {
+        "p_id": "8",
+        "name": "Anubhutee",
+        "description": "Anubhutee Mustered Cotton Printed Kurta & Palazzo Set",
+        "price": 899,
+        "Before Discount": 3399,
+        "Ratings": "4.7",
+        "count": "(3)",
+        "stock": "Limited Stock!",
+        "image": "https://img.tatacliq.com/images/i10/437Wx649H/MP000000017380515_437Wx649H_202304280116481.jpeg"
+    },
+    {
+        "p_id": "9",
+        "name": "Biba",
+        "description": "Biba Off-White & Blue Printed Straight Kurta",
+        "price": 1259,
+        "Before Discount": 1799,
+        "stock": "Limited Stock!",
+        "image": "https://img.tatacliq.com/images/i11/437Wx649H/MP000000017856148_437Wx649H_202306072116401.jpeg"
+    },
+    {
+        "p_id": "10",
+        "name": "Yufta",
+        "description": "Yufta Maroon Embellished Kurta Pant Set With Dupatta",
+        "price": 1199,
+        "Before Discount": 3999,
+        "Ratings": "5",
+        "count": "(1)",
+        "image": "https://img.tatacliq.com/images/i9/437Wx649H/MP000000016111669_437Wx649H_202301192315521.jpeg"
+    },
+    {
+        "p_id": "11",
+        "name": "Khushak K",
+        "description": "Khushal K Maroon Kurta Palazzo Set With Dupatta",
+        "price": 1427,
+        "Before Discount": 5099,
+        "Ratings": "3.8",
+        "count": "(63)",
+        "stock": "Limited Stock!",
+        "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000014319077_437Wx649H_202209022117101.jpeg"
+    },
+    {
+        "p_id": "12",
+        "name": "Khushal K",
+        "description": "Khushal K Pink Woven Pattern Kurta Palazzo Set With Dupatta ",
+        "price": 1427,
+        "Before Discount": 5099,
+        "Ratings": "4.6",
+        "count": "(63)",
+        "stock": "Limited Stock!",
+        "image": "https://img.tatacliq.com/images/i8/437Wx649H/MP000000013774264_437Wx649H_202208232249531.jpeg"
+    },
+    {
+        "p_id": "13",
+        "name": "Juniper",
+        "description": "Juniper Mustered Cambric Printed Flared Palazzo",
+        "price": 989,
+        "Before Discount": 1799,
+        "Ratings": "4.1",
+        "count": "(57)",
+        "stock": "Limited Stock!",
+        "image": "https://img.tatacliq.com/images/i7/437Wx649H/MP000000010516099_437Wx649H_202109071512141.jpeg"
+    },
+    {
+        "p_id": "14",
+        "name": "Saree Mall ",
+        "description": "Saree Mall Pink silk Printed Saree With Unstitched Blouse",
+        "price": 899,
+        "Before Discount": 2799,
+        "stock": "Limited Stock!",
+        "image":"https://img.tatacliq.com/images/i9/437Wx649H/MP000000016223054_437Wx649H_202301260218561.jpeg"
+    }
+]
